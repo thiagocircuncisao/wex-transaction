@@ -1,0 +1,10 @@
+spring:
+  profile:
+    active: local
+  data:
+    mongodb:
+      uri: 'mongodb+srv://thiagocircuncisao:l2DIYkiIDmooooST@cluster0.hpns6go.mongodb.net/?retryWrites=true&w=majority'
+      database: 'wex-transaction'
+
+currency-api:
+  url: 'https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/rates_of_exchange'
